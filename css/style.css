@@ -449,6 +449,7 @@ footer .row{
 	.gallery-design .grid-item {
 		width: 50%;
 	}
+
 }
 
 @media (max-width: 767px){
@@ -485,6 +486,8 @@ footer .row{
 	.gallery-design .grid-item {
 		width: 33%;
 	}
+	.logo-name .name h5{
+		font-size: 2.5rem;}
 }
 
 
@@ -493,6 +496,8 @@ footer .row{
 		margin: 0;
 		width: 100%;
 	}
+	.logo-name .name h5{
+		font-size: 2.2rem;}
 }
 
 @media (min-width: 768px){
@@ -500,6 +505,8 @@ footer .row{
 		display: flex !important;
 		justify-content:center;
 	}
+	.logo-name .name h5{
+		font-size: 3rem;}
 }
 
 @media (min-width: 800px){
@@ -507,6 +514,9 @@ footer .row{
 		width: 800px;
 		max-width: 800px;
 	}
+	.logo-name .name h5{
+		font-size: 2.5rem;}
+		
 }
 
 @media (min-width: 1000px){
@@ -523,5 +533,7 @@ footer .row{
 	.gallery-design .grid-item {
 		width: 25%;
 	}
+	.logo-name .name h5{
+		font-size: 2.5rem;}
 }
 
