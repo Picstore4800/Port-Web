@@ -1,213 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dr. Vani Janardhanan | Home</title>
-    <link rel="icon" type="image/png" href="img/Logo.png">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>QR SCANNER</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+
 </head>
+<body>
+    <div id="cursor"></div>
+    <div id="cursor-border"></div>  
+<!-- header section starts  -->
 
-<body id="home">
-    <!-- Start Your Body Code From here -->
-    <div class="wrapper">
-        <!-- header starts here -->
-        <header id="header" class="">
-            <!-- header -->
-            <div class="header-wrapper">
-                <div class="header-container">
-                    <div>
-                        <div class="logo-name">
-                            <div class="logo">
-                                <a href="index.html" title=""><img src="img/Logo.png" alt="logo"></a>
-                            </div>
-                            <div class="name">
-                                <a href="index.html" title="">
-                                    <h5>Dr. Vani Janardhanan</h5>
-                                    <p style="font-size: larger; font-weight: bold;" class="primary-color sub-title">
-                                        Asst. Professor IIT Palakkad</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+<header class="header">
 
-                </div>
-            </div>
-            <nav>
-                <div class="navbar navbar-inverse navbar-custom" role="navigation">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                data-target=".navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="collapse navbar-collapse">
-                            <ul class="nav navbar-nav">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="About_Me.html">About Me</a></li>
-                                <li><a href="Publications.html">Publications</a></li>
-                                <li><a href="Presentation.html">Presentations</a></li>
-                                <li><a href="Awards.html">Awards</a></li>
-                                <li><a href="Blog.html">Blog</a></li>
-                                <li><a href="Contact.html">Contact Me</a></li>
+    <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
 
+    <nav class="navbar">
+        <!-- <div class="dropdown"><button class="dropbtn"><a href="index.html" class="dropdowna">Home</a></button></div> -->
+        <div class="dropdown"><button class="dropbtn"><a href="aboutme.html" class="dropdowna">ABOUT ME</a></button></div>
+        <div class="dropdown"><button class="dropbtn"><a style="color:var(--main-color); font-weight: bold;" href="index.html" class="dropdowna">COLLECTIONS</a></button></div>
+      </nav>
 
-
-                            </ul>
-                        </div>
-                        <!--/.nav-collapse -->
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <!-- /header -->
-
-        <!-- carousel -->
-        <div class="carousel-wrapper">
-            <div class="carousel" style="margin:0 auto;">
-                <div class="carousel-items" style="width:100%; height: auto;">
-                    <img style=" background-repeat:no-repeat; background-size:cover;" src="img/gallery/faculty.jpg"
-                        alt="Faculty">
-                    <div></div>
-
-                </div>
-
-            </div>
-        </div>
-
-
-        <!-- Announcements, Events, News -->
-        <div class="widgets-wrapper">
-            <div class="widgets-container">
-
-                <!-- Edit this section for important announcements.-->
-                <div class="alert alert-warning text-center">
-                    <!-- Institute invites applications for <a class="alert-link" href="#">MTech
-                and PhD programs - Academic Year 2016-17</a> -->
-                    <br><br>
-                    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, consequatur vero. Ullam deleniti illum, unde nihil sapiente vel non error quam sunt minima, consequuntur maiores ea recusandae magni beatae optio!
-                    <br><br><br>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, eaque. Quod cumque beatae, veniam explicabo neque fugit doloribus voluptatibus illum laborum impedit nihil consectetur rerum atque natus quos sunt voluptates.
-                </p>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, consequatur vero. Ullam deleniti illum, unde nihil sapiente vel non error quam sunt minima, consequuntur maiores ea recusandae magni beatae optio!
-                    <br><br><br>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, eaque. Quod cumque beatae, veniam explicabo neque fugit doloribus voluptatibus illum laborum impedit nihil consectetur rerum atque natus quos sunt voluptates.
-                </p>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, consequatur vero. Ullam deleniti illum, unde nihil sapiente vel non error quam sunt minima, consequuntur maiores ea recusandae magni beatae optio!
-                    <br><br><br>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, eaque. Quod cumque beatae, veniam explicabo neque fugit doloribus voluptatibus illum laborum impedit nihil consectetur rerum atque natus quos sunt voluptates.
-                </p>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, consequatur vero. Ullam deleniti illum, unde nihil sapiente vel non error quam sunt minima, consequuntur maiores ea recusandae magni beatae optio!
-                    <br><br><br>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, eaque. Quod cumque beatae, veniam explicabo neque fugit doloribus voluptatibus illum laborum impedit nihil consectetur rerum atque natus quos sunt voluptates.
-                </p>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, consequatur vero. Ullam deleniti illum, unde nihil sapiente vel non error quam sunt minima, consequuntur maiores ea recusandae magni beatae optio!
-                    <br><br><br>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, eaque. Quod cumque beatae, veniam explicabo neque fugit doloribus voluptatibus illum laborum impedit nihil consectetur rerum atque natus quos sunt voluptates.
-                </p> -->
-                    <div class="contents-wrapper">
-                        <!-- Contents starts here -->
-
-                        <div class="row content content-faculty">
-
-                            <div class="col-sm-12" style="text-align: left;">
-                                <p><b>Educational Qualifications</b></p>
-                                <p>
-                                <ul>
-                                    <li>Ph.D (Jawaharlal Nehru University, 2014)</li>
-                                    <li>M.Phil (Jawaharlal Nehru University, 2010)</li>
-                                    <li>M.A (Jawaharlal Nehru University, 2007)</li>
-                                    <li>UGC-NET (2007)</li>
-                                    <li>PGDM-Print Journalism (IMSIT, New Delhi, 2005)</li>
-                                </ul>
-                                </p>
-                                <p><b>Research interests</b></p>
-                                <p>
-                                    Applied Linguistics, Sociolinguistics, Second Language Acquisition, Discourse
-                                    Analysis, Gender Studies, Technical Communication.
-                                </p>
-                                <p><b>Member of Professional bodies</b></p>
-                                <p>
-                                    Life Member- Linguistic Society of India
-                                </p>
-                                <p><b>Publications &amp; Presentations</b></p>
-                                <p>
-                                <div><strong>Publications in Journals</strong>
-                                    <ul>
-                                        <li> Chetia Barnali, "Discourse Markers in Written English Texts in a
-                                            Multilingual Setting: A Comparative Study of High School English in the
-                                            Schools of Assam," Language in India (International), Vol.13:9, pp. 40-70,
-                                            2013.
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div><strong>Publications in Conference Proceedings</strong>
-                                    <ul>
-                                        <li>Chetia Barnali, "English Advertisements in a Multilingual Setting-A
-                                            Linguistic Perspective," in ICEHM International Conference Proceedings, ed.
-                                            by Prof. Jiri Strouhal (Bangkok, Thailand, 2014), pp. 27-29, ISBN
-                                            978-93-82242-59-8.</li>
-                                        <li>Chetia Barnali, "English Discourse Markers-The Second Language Learner
-                                            Perspective," in ICELL International Conference Proceedings, ed. by H
-                                            Suwastio, S.R.Najeeb, K Kamaluddin (Hyderabad, India, 2014), pp.1-5, ISBN
-                                            978-93-83303-59-5.</li>
-
-                                        <li>Chetia Barnali, "Technical Communication for Engineering Students "Relevance
-                                            in the Indian Context," in Eighth TheIIER-Science Plus International
-                                            Conference Proceedings, ed. by Dr. P Suresh (Dubai, UAE, 2015), pp. 49-51,
-                                            ISBN 978-93-84209-83-4.</li>
-                                    </ul>
-                                </div>
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-        </div>
-
-        <!-- Footer -->
-        <footer>
-            <div class="footer-wrapper">
-                <!-- <span class="logo"><img src="img/Logo.png" alt=""></span> -->
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p>Copyright ©<strong> 2023 | All Rights Reserved</strong></p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
     </div>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/jquery.paginate.min.js "></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-        crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/434d359724.js"></script>
-    <script src="js/main.js"></script>
-    <!-- <script>
-    $(document).ready(function () {
-        $('[data-toggle="popover"]').popover();
-        $('[data-toggle="popover"]').on('click', function (e) {
-            $('[data-toggle="popover"]').not(this).popover('hide');
-        });
-    });
-</script> -->
-</body>
 
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+</header>
+<!-- header section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about" style="padding-bottom:0;">
+    <br><br>
+    <br><br>
+    <br><br>
+    <!-- <h1 class="heading"> <span>PROGRAM</span>s</h1> -->
+<!-- 
+    <div class="content" style="padding-bottom:0; text-align: center;">
+        <style>
+            @keyframes animationname {
+                0% {
+                    transform: translateY(40px);
+                }
+
+                100% {
+                    transform: translateY(0px);
+                }
+            }
+        </style>
+        <h2 data-aos="heading-show" class=""><span class="heading_background" style="text-align: center;">About Us</span>
+        </h2>
+        <h3 class="#" style="color: #d3ad7f; font-size: 4rem; padding-bottom: 0%;">#LIFE</h3>
+    </div> -->
+
+</section>
+ 
+<!-- about section ends -->
+
+<section class="blogs" id="blogs">
+
+   <!-- set 1 -->
+    <div class="box-container">
+        <div class="box" onclick="location.href='picture-1.html' ;">
+            <div class="image">
+                <img href="event22list.html#solareclipse" src="images/bg-img.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title"><strong>L’ESTAQUE</strong></a>
+                <!-- <a href="#" class="btn1"><strong>14-15|08|2022</strong></a> -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <!-- <a href="event22list.html#solareclipse" class="btn">Know More</a> -->
+            </div>
+        </div>
+        <div class="box" onclick="location.href='picture-2.html' ;">
+            <div class="image">
+                <img src="images/bg-img1.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title"><strong>CÉZANNE</strong></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <!-- <a href="#" class="btn">Know More</a> -->
+            </div>
+        </div>
+        <div class="box" onclick="location.href='picture-3.html';">
+            <div class="image">
+                <img src="images/bg-img2.jpg" alt="#airborne">
+            </div>
+            <div class="content">
+                <a href="#" class="title"><strong>ETERNITY</strong></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <!-- <a href="event22list.html#callisto" class="btn">Know More</a> -->
+            </div>
+        </div>
+        <div class="box" onclick="location.href='picture-1.html' ;">
+            <div class="image">
+                <img href="event22list.html#solareclipse" src="images/bg-img4.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title"><strong>SADFUE</strong></a>
+                <!-- <a href="#" class="btn1"><strong>14-15|08|2022</strong></a> -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <!-- <a href="event22list.html#solareclipse" class="btn">Know More</a> -->
+            </div>
+        </div>
+        <div class="box" onclick="location.href='picture-2.html' ;">
+            <div class="image">
+                <img src="images/bg-img3.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title"><strong>SEFCDNNE</strong></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <!-- <a href="#" class="btn">Know More</a> -->
+            </div>
+        </div>
+        <div class="box" onclick="location.href='picture-3.html';">
+            <div class="image">
+                <img src="images/bg-img5.jpeg" alt="#airborne">
+            </div>
+            <div class="content">
+                <a href="#" class="title"><strong>LKADBF</strong></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <!-- <a href="event22list.html#callisto" class="btn">Know More</a> -->
+            </div>
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="assets/js/script.js"></script>
+
+</body>
 </html>
